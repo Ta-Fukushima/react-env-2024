@@ -11,6 +11,7 @@
     "coverage": "vitest run --coverage",
     "lint": "eslint src",
     "lint:fix": "eslint src --fix",
+    "format": "prettier . --write",
     "prepare": "husky install"
   },
   "dependencies": {
